@@ -37,5 +37,20 @@
     color: #f0fff0;
 }
 .left-text{
+    width: 40vh;
+    height: 100vh;
     color: #333;
+    margin: 90px;
+    
+}
+.right-img{
+    width: 90vh;
+    height: 50%;
+    border-radius: 30px;
+    margin: 30px;
+}
+.flex{
+   width: 100%;
+   height: fit-content;
+    display: flex;
 }
