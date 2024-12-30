@@ -48,7 +48,7 @@ nav {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://source.unsplash.com/1600x900/?bihar,india') center/cover;
+                url('/image/Mahavir_Patna.JPG') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
