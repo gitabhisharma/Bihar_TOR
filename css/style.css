@@ -48,7 +48,7 @@ nav {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('/image/Mahavir_Patna.JPG') center/cover;
+                url('/image/background.jfif') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +78,7 @@ nav {
 }
 
 .city-grid {
+    flex-flow: wrap;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
@@ -92,13 +93,19 @@ nav {
 }
 
 .city-card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.03);
+    transition: 0.7s;
+    filter: drop-shadow(0 0 10px #333);
 }
 
 .city-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    filter: grayscale(100%);
+}
+.city-card img:hover{
+    filter: drop-shadow(0 0 10px #333);
 }
 
 .city-card h3 {
